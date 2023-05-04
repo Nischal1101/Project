@@ -2,15 +2,14 @@ import React from "react";
 import Hero from "./Hero";
 import Others from "./Others";
 import Footer from "./Footer";
-import Typed from 'react-typed';
-
+import Testimonial from "./Testimonial";
 const Home = () => {
   return (
     <>
-    
-      <Hero/>
+      <Hero />
       <Others />
-      <Footer/>
+      <Testimonial />
+      <Footer />
     </>
   );
 };

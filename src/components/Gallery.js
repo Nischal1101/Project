@@ -1,5 +1,10 @@
 import React from "react";
-
+import one from "../images/1.jpg";
+import two from "../images/2.jpg";
+import three from "../images/3.jpg";
+import four from "../images/4.jpg";
+import five from "../images/5.jpg";
+import six from "../images/6.jpg";
 const Gallery = () => {
   return (
     <>
@@ -7,12 +12,10 @@ const Gallery = () => {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
-              Master Cleanse Reliac Heirloom
+              OUR GALLERY
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify, subway tile poke farm-to-table. Franzen you probably
-              haven't heard of them man bun deep jianbing selfies heirloom.
+              Here are some glimpses of students as well as our teachers.
             </p>
           </div>
           <div className="flex flex-wrap -m-4">
@@ -21,7 +24,7 @@ const Gallery = () => {
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="https://dummyimage.com/600x360"
+                  src={one}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">
@@ -42,7 +45,7 @@ const Gallery = () => {
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="https://dummyimage.com/601x361"
+                  src={two}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">
@@ -63,7 +66,7 @@ const Gallery = () => {
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="https://dummyimage.com/603x363"
+                  src={three}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">
@@ -84,7 +87,7 @@ const Gallery = () => {
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="https://dummyimage.com/602x362"
+                  src={four}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">
@@ -105,7 +108,7 @@ const Gallery = () => {
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="https://dummyimage.com/605x365"
+                  src={five}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">
@@ -126,7 +129,7 @@ const Gallery = () => {
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src="https://dummyimage.com/606x366"
+                  src={six}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">
