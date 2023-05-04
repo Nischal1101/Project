@@ -1,10 +1,12 @@
 import React from "react";
 import one from "../images/1.jpg";
 import two from "../images/2.jpg";
-import three from "../images/3.jpg";
-import four from "../images/4.jpg";
-import five from "../images/5.jpg";
-import six from "../images/6.jpg";
+import nine from "../images/9.jpg";
+import five from "../images/five.jpg";
+import one2 from "../images/one.jpg";
+import two2 from "../images/two.jpg";
+import threeRe from "../images/threeRe.jpg";
+import baccha from "../images/baccha.jpg";
 const Gallery = () => {
   return (
     <>
@@ -23,16 +25,7 @@ const Gallery = () => {
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
-                  src={three}
-                  alt="content"
-                />
-              </div>
-            </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
-              <div className="bg-gray-100 p-6 rounded-lg">
-                <img
-                  className="h-[20rem] rounded w-full object-cover object-center mb-6"
-                  src={five}
+                  src={one}
                   alt="content"
                 />
               </div>
@@ -50,7 +43,52 @@ const Gallery = () => {
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
-                  src={four}
+                  src={nine}
+                  alt="content"
+                />
+              </div>
+            </div>
+            <div className="xl:w-1/4 md:w-1/2 p-4">
+              <div className="bg-gray-100 p-6 rounded-lg">
+                <img
+                  className="h-[20rem] rounded w-full object-cover object-center mb-6"
+                  src={two2}
+                  alt="content"
+                />
+              </div>
+            </div>
+            <div className="xl:w-1/4 md:w-1/2 p-4">
+              <div className="bg-gray-100 p-6 rounded-lg">
+                <img
+                  className="h-[20rem] rounded w-full object-cover object-center mb-6"
+                  src={five}
+                  alt="content"
+                />
+              </div>
+            </div>
+            <div className="xl:w-1/4 md:w-1/2 p-4">
+              <div className="bg-gray-100 p-6 rounded-lg">
+                <img
+                  className="h-[20rem] rounded w-full object-cover object-center mb-6"
+                  src={one2}
+                  alt="content"
+                />
+              </div>
+            </div>
+            <div className="xl:w-1/4 md:w-1/2 p-4">
+              <div className="bg-gray-100 p-6 rounded-lg">
+                <img
+                  className="h-[20rem] rounded w-full object-cover object-center mb-6"
+                  src={threeRe}
+                  alt="content"
+                />
+              </div>
+            </div>
+            <div className="xl:w-1/4 md:w-1/2 p-4">
+              <div className="bg-gray-100 p-6 rounded-lg">
+                <img
+                  className="h-[20rem] rounded w-full object-cover object-center mb-6"
+                  src={baccha}
                   alt="content"
                 />
               </div>

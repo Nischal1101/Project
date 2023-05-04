@@ -2,8 +2,8 @@ import React from "react";
 import Typed from "react-typed";
 import laptop from "../images/laptop.jpg";
 import three from "../images/three.jpg";
-import four from "../images/four.jpg";
-import two from "../images/two.jpg";
+import seven from "../images/seven.jpg";
+import aanshRe from "../images/aanshRe.jpg";
 
 const Hero = () => {
   return (
@@ -42,7 +42,6 @@ const Hero = () => {
                   src={three}
                   alt="content"
                 />
-                
               </div>
             </div>
             <div className="xl:w-1/4 md:w-1/2 p-4">
@@ -52,27 +51,24 @@ const Hero = () => {
                   src={laptop}
                   alt="content"
                 />
-              
               </div>
             </div>
             <div className="xl:w-1/4 md:w-1/2 p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
-                  src={two}
+                  src={seven}
                   alt="content"
                 />
-               
               </div>
             </div>
             <div className="xl:w-1/4 md:w-1/2 p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
-                  src={four}
+                  src={aanshRe}
                   alt="content"
                 />
-               
               </div>
             </div>
           </div>
