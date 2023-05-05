@@ -4,6 +4,7 @@ import laptop from "../images/laptop.jpg";
 import three from "../images/three.jpg";
 import seven from "../images/seven.jpg";
 import aanshRe from "../images/aanshRe.jpg";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -71,6 +72,28 @@ const Hero = () => {
                 />
               </div>
             </div>
+          </div>
+          <div>
+            <button
+              href="/"
+              type="submit"
+              className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg my-6"
+            >
+              <Link className="mr-5 hover:text-white" to="/book ">
+                BOOK A TUTOR
+              </Link>
+
+              {/* <a href="/book">Book a tutor</a> */}
+            </button>
+            <button
+              type="submit"
+              className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg my-4"
+            >
+              <Link className="mr-5 hover:text-white" to="/apply">
+                APPLY AS A TUTOR
+              </Link>
+              {/* <a href="/apply">Apply as a tutor</a> */}
+            </button>
           </div>
         </div>
       </section>

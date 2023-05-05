@@ -18,7 +18,7 @@ const Footer = () => {
             <span className="ml-3 text-xl">pedagogy</span>
           </a>
           <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
-            © 2020 pedagogy —
+            © 2023 pedagogy —
             <a
               href="https://www.facebook.com/PedagogyHomeTuition "
               className="text-gray-500 ml-1"

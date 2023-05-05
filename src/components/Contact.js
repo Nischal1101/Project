@@ -10,10 +10,10 @@ const Contact = () => {
               Contact Us
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-             Get in touch to get our services.
+              Get in touch to get our services.
             </p>
           </div>
-          <form action="https://formspree.io/f/xjvdlend" method="POST">
+          <form action="https://formspree.io/f/xzbqojab" method="POST">
             <div className="lg:w-1/2 md:w-2/3 mx-auto">
               <div className="flex flex-wrap -m-2">
                 <div className="p-2 w-1/2">

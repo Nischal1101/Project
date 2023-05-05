@@ -15,9 +15,10 @@ const Navbar = () => {
             <Link className="mr-5 hover:text-white" to="/gallery">
               GALLERY
             </Link>
-            <Link className="hover:text-white" to="/contact">
+            <Link className="mr-5 hover:text-white" to="/contact">
               CONTACT US
             </Link>
+          
           </nav>
           <a
             className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0"
