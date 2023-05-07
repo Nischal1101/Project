@@ -9,8 +9,8 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <>
-      <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+      <section className="text-gray-600 body-font mb-10">
+        <div className="container px-5 py-[9rem] mx-auto">
           <div className="flex flex-wrap w-full mb-20">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0 mx-auto text-center   ">
               <h1 className="sm:text-3xl text-3xl font-medium title-font mb-2 text-[#00df9a]">

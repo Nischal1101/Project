@@ -7,12 +7,13 @@ import one2 from "../images/one.jpg";
 import two2 from "../images/two.jpg";
 import threeRe from "../images/threeRe.jpg";
 import baccha from "../images/baccha.jpg";
+import Footer from "../components/Footer";
 const Gallery = () => {
   return (
     <>
       <section className="text-gray-400 bg-gray-900 body-font">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-center w-full mb-20">
+        <div className="container px-5 py-[9rem] mx-auto">
+          <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
               OUR GALLERY
             </h1>
@@ -21,7 +22,7 @@ const Gallery = () => {
             </p>
           </div>
           <div className="flex flex-wrap -m-4">
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/4 md:w-1/2 mx-auto pb-4 md:p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
@@ -30,7 +31,7 @@ const Gallery = () => {
                 />
               </div>
             </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/4 md:w-1/2 mx-auto pb-4 md:p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
@@ -39,7 +40,7 @@ const Gallery = () => {
                 />
               </div>
             </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/4 md:w-1/2 mx-auto pb-4 md:p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
@@ -48,7 +49,7 @@ const Gallery = () => {
                 />
               </div>
             </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/4 md:w-1/2 mx-auto pb-4 md:p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
@@ -57,7 +58,7 @@ const Gallery = () => {
                 />
               </div>
             </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/4 md:w-1/2 mx-auto pb-4 md:p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
@@ -66,7 +67,7 @@ const Gallery = () => {
                 />
               </div>
             </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/4 md:w-1/2 mx-auto pb-4 md:p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
@@ -75,7 +76,7 @@ const Gallery = () => {
                 />
               </div>
             </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/4 md:w-1/2 mx-auto pb-4 md:p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
@@ -84,7 +85,7 @@ const Gallery = () => {
                 />
               </div>
             </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/4 md:w-1/2 mx-auto pb-4 md:p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
@@ -95,6 +96,7 @@ const Gallery = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </section>
     </>
   );

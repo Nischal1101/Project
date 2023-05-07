@@ -1,10 +1,10 @@
 import React from "react";
-import Footer from "../components/Footer";
+
 const Contact = () => {
   return (
-    <div>
-      <section className="text-gray-400 bg-gray-900 body-font relative">
-        <div className="container px-5 py-24 mx-auto">
+    <>
+      <section className="text-gray-400 bg-gray-900 body-font ">
+        <div className="container px-5 py-[9rem] mx-auto ">
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
               Contact Us
@@ -99,9 +99,9 @@ const Contact = () => {
             </div>
           </form>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </section>
-    </div>
+    </>
   );
 };
 
