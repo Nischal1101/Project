@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import pedagogy from "../images/pedagogy.png";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -7,9 +8,9 @@ const Footer = () => {
     <>
       <footer className="text-gray-400 bg-gray-900 body-font">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <a
+          <Link
             className="flex title-font font-medium items-center md:justify-start justify-center text-white"
-            href="/"
+            to="/"
           >
             <img
               className="w-10 h-10 text-white p-2  rounded-full"
@@ -18,7 +19,7 @@ const Footer = () => {
             />
 
             <span className="ml-3 text-xl">Pedagogy Tuitions</span>
-          </a>
+          </Link>
           <p className="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
             © 2023 pedagogytuitions —
             <a

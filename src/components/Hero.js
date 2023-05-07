@@ -1,9 +1,9 @@
 import React from "react";
 import Typed from "react-typed";
-import laptopmin from "../images/compressed/laptop-min.jpg";
-import threemin from "../images/compressed/three-min.jpg";
-import sevenmin from "../images/compressed/seven-min.jpg";
-import twomin from "../images/compressed/two-min.jpg";
+import laptopmin from "../images/hero/laptop-min.jpg";
+import threemin from "../images/hero/three-min.jpg";
+import sevenmin from "../images/hero/seven-min.jpg";
+import twomin from "../images/hero/two-min.jpg";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -14,29 +14,37 @@ const Hero = () => {
           <div className="flex flex-wrap w-full mb-20">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0 mx-auto text-center   ">
               <h1 className="sm:text-3xl text-3xl font-medium title-font mb-2 text-[#00df9a]">
-                PEDAGOGY TUITIONS
+                SPREADING KNOWLEDGE
               </h1>
               <div>
-                <p className=" w-full leading-relaxed text-gray-500 text-2xl text-bold">
+                <p className=" w-full leading-relaxed text-gray-500 text-2xl text-bold mt-10">
+                  Welcome to Pedagogy Tuitions, where we provide experienced and
+                  qualified tutors, personalized learning, regular feedback and
+                  suggestion, monthly examinations, competitions, webinars and
+                  training for both students and tutors. Join us to unlock your
+                  child's full potential.
+                </p>
+                <p className=" w-full leading-relaxed text-3xl text-bold text-[#00df9a]">
                   Where you can find
                 </p>
                 <Typed
-                  className="pl-2 text-2xl text-bold"
+                  className="pl-2 text-2xl text-bold font-comforter"
                   strings={[
-                    "handsome teachers",
-                    "intelligent teachers",
-                    "beautiful teachers",
-                    "hardworking teachers",
+                    "Experienced tutors",
+                    "Qualified tutors",
+                    "Committed tutors",
+                    "Personalized tutors",
+                    "Supportive tutors",
                   ]}
                   typeSpeed={120}
-                  backSpeed={180}
+                  backSpeed={200}
                   loop
                 />
               </div>
             </div>
           </div>
           <div className="flex flex-wrap -m-4">
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/4 md:w-1/2 mx-auto pb-4 md:p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
@@ -45,7 +53,7 @@ const Hero = () => {
                 />
               </div>
             </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/4 md:w-1/2 mx-auto pb-4 md:p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
@@ -54,7 +62,7 @@ const Hero = () => {
                 />
               </div>
             </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/4 md:w-1/2 mx-auto pb-4 md:p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
@@ -63,7 +71,7 @@ const Hero = () => {
                 />
               </div>
             </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/4 md:w-1/2 mx-auto pb-4 md:p-4">
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
