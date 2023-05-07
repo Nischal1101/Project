@@ -28,7 +28,9 @@ const Navbar = () => {
               src={pedagogy}
               alt="loading"
             />
-            <span className="ml-3 text-xl xl:block lg:hidden">PEDAGOGY</span>
+            <span className="ml-3 text-xl xl:block lg:hidden">
+              PEDAGOGY TUITIONS
+            </span>
           </Link>
           <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0"></div>
         </div>

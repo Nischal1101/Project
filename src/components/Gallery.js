@@ -1,12 +1,14 @@
 import React from "react";
-import one from "../images/1.jpg";
-import two from "../images/2.jpg";
-import nine from "../images/9.jpg";
-import five from "../images/five.jpg";
-import one2 from "../images/one.jpg";
-import two2 from "../images/two.jpg";
-import threeRe from "../images/threeRe.jpg";
-import baccha from "../images/baccha.jpg";
+// import images from images folder
+//to add another image copy div and change image name
+import one from "../images/gallery/1-min.jpg";
+import two from "../images/gallery/2-min.jpg";
+import nine from "../images/gallery/9-min.jpg";
+import five from "../images/gallery/five-min.jpg";
+import one2 from "../images/gallery/one-min.jpg";
+import two2 from "../images/gallery/two-min.jpg";
+import threeRe from "../images/gallery/threeRe-min.jpg";
+import baccha from "../images/gallery/baccha-min.jpg";
 import Footer from "../components/Footer";
 const Gallery = () => {
   return (
@@ -89,12 +91,24 @@ const Gallery = () => {
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
-                  src={baccha}
+                  src={baccha} //here baccha is name of image that we imported.
                   alt="content"
                 />
               </div>
             </div>
           </div>
+        </div>
+        <div className="flex ">
+          <iframe
+            className="w-3/4 mx-auto md:1/2 "
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/rlzUJYy2Fv4"
+            title="Pedagogy youtube video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
         <Footer />
       </section>

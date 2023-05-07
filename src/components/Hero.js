@@ -1,9 +1,9 @@
 import React from "react";
 import Typed from "react-typed";
-import laptop from "../images/laptop.jpg";
-import three from "../images/three.jpg";
-import seven from "../images/seven.jpg";
-import aanshRe from "../images/aanshRe.jpg";
+import laptopmin from "../images/compressed/laptop-min.jpg";
+import threemin from "../images/compressed/three-min.jpg";
+import sevenmin from "../images/compressed/seven-min.jpg";
+import twomin from "../images/compressed/two-min.jpg";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="flex flex-wrap w-full mb-20">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0 mx-auto text-center   ">
               <h1 className="sm:text-3xl text-3xl font-medium title-font mb-2 text-[#00df9a]">
-                PEDAGOGY TUITION
+                PEDAGOGY TUITIONS
               </h1>
               <div>
                 <p className=" w-full leading-relaxed text-gray-500 text-2xl text-bold">
@@ -40,7 +40,7 @@ const Hero = () => {
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
-                  src={three}
+                  src={threemin}
                   alt="content"
                 />
               </div>
@@ -49,7 +49,7 @@ const Hero = () => {
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
-                  src={laptop}
+                  src={laptopmin}
                   alt="content"
                 />
               </div>
@@ -58,7 +58,7 @@ const Hero = () => {
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
-                  src={seven}
+                  src={sevenmin}
                   alt="content"
                 />
               </div>
@@ -67,7 +67,7 @@ const Hero = () => {
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img
                   className="h-[20rem] rounded w-full object-cover object-center mb-6"
-                  src={aanshRe}
+                  src={twomin}
                   alt="content"
                 />
               </div>
