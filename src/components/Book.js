@@ -3,7 +3,7 @@ import React from "react";
 const Book = () => {
   return (
     <>
-      <div className="w-screen h-screen">
+      <div className="w-screen h-screen pt-24">
         <iframe
           className="w-full h-full"
           title="myframe"

@@ -3,7 +3,7 @@ import React from "react";
 const Apply = () => {
   return (
     <>
-      <div className="w-screen h-screen">
+      <div className="w-screen h-screen pt-24">
         <iframe
           // className="w-[26rem] md:w-full"
           className="w-full h-full"
